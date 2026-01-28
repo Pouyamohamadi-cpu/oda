@@ -7,9 +7,8 @@
 Oda is a high-performance, lightweight package manager designed for the **G** programming language , C , C++ , C#, F#, Vlang, NASM & general D projects + many another programing languages. It automates the process of downloading packages, extracting archives, and compiling source code.
 
 ## Features
-
-- **Archive Support**: Downloads and extracts `.oda` (RAR) packages automatically.
-- **Auto-Compilation**: Automatically uses `dmd` to compile D source code found in packages.
+.
+- **Auto-Compilation**: Automatically uses compiler in config.odac to compile D source code found in packages.
 - **Mirror Support**: Downloads packages from configurable mirror URLs.
 - **Dependency Free**: Built with minimal dependencies for fast execution.
 
@@ -39,12 +38,12 @@ dmd oda.d -of=oda
 
 ## Usage
 
-To install a package (`.oda` file), simply run:
+To install a source (`.oda` file), simply run:
 
 ```bash
 oda <package_name>.oda
 ```
-
+this well get <package_name>.oda from current folder then read config.odac on it for settings.
 Example:
 
 ```bash
@@ -81,7 +80,7 @@ An Oda package is a RAR archive with a specific structure:
 ```
 package_name.oda
 ├── code/
-│   └── main.d           # Your D source code
+│   └── package_name.d/.c/.cpp/.v           # Your D source code
 └── config.odac           # Package configuration
 ```
 
