@@ -1,5 +1,8 @@
 
 # Oda
+![Oda Make](https://img.shields.io/badge/G-Language-yellow?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/license-GNU_v3-green?style=for-the-badge)
 
 Oda is a high-performance, lightweight package manager designed for the **G** programming language , C , C++ , C#, F#, Vlang, NASM & general D projects + many another programing languages. It automates the process of downloading packages, extracting archives, and compiling source code.
 
