@@ -1,8 +1,7 @@
 
-```markdown
 # Oda
 
-Oda is a high-performance, lightweight package manager designed for the **G** programming language and general D projects. It automates the process of downloading packages, extracting archives, and compiling source code.
+Oda is a high-performance, lightweight package manager designed for the **G** programming language , C , C++ , C#, F#, Vlang, NASM & general D projects + many another programing languages. It automates the process of downloading packages, extracting archives, and compiling source code.
 
 ## Features
 
