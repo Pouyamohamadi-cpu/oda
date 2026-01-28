@@ -31,7 +31,7 @@ sudo mv oda /usr/local/bin/
 Clone the repository and build:
 
 ```bash
-git clone https://github.com/yourname/oda.git
+git clone https://github.com/pouyamohamadi-cpu/oda.git
 cd oda
 dmd oda.d -of=oda
 ```
@@ -52,12 +52,10 @@ oda glang_foroda.oda
 
 ### Workflow
 
-1. Oda connects to the configured mirror.
-2. It downloads the specified `.oda` archive.
-3. It checks if the package is a valid RAR archive.
-4. It extracts contents to the working directory (e.g., `code/` folder).
-5. It searches for D source files (`.d`) inside the `code/` folder.
-6. It attempts to compile them using `dmd`.
+1. It checks if the package is a valid RAR archive.
+2. It extracts contents to the working directory (e.g., `code/` folder).
+3. It searches for D source files (`.d`) inside the `code/` folder.
+4. It attempts to compile them using `dmd` or compiler in config.
 
 ### Getting Help
 
