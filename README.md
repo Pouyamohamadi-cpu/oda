@@ -1,6 +1,6 @@
 
 # Oda
-![Oda Make](https://img.shields.io/badge/G-Language-yellow?style=for-the-badge)
+![Oda Make](https://img.shields.io/badge/Oda-make-blue?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-GNU_v3-green?style=for-the-badge)
 
